@@ -29,6 +29,7 @@ class Form extends Component{
 
         return (
             <form>
+            <h5>Add New Character</h5>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" value={name} onChange={this.handleChange} />
                 <lable for="job">Job</lable>
